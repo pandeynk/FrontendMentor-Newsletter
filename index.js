@@ -26,6 +26,6 @@ const handleDismiss = function () {
 
   emailEl.className = "";
   errorTextEl.style.display = "none";
-  newsletterDialogEl.style.display = "block";
+  newsletterDialogEl.style.display = "flex";
   successDialogEl.style.display = "none";
 };
